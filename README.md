@@ -119,7 +119,7 @@ possible?
 ### Exercise 2.15
 * Write in full the declaration for a field of type `int` whose name is `status`.
 ```java
-private in status;
+private int status;
 ```
 
 ### Exercise 2.16

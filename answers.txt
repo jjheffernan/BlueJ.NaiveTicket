@@ -1,0 +1,73 @@
+Exercise 2.1 // After Completing These steps, I have 3 Integers, price1, Balance1, Balance2 and string ticket1
+
+Exercise 2.2 // Int Balance2 was got, and returns 0. This was after printing String ticket1
+
+Exercise 2.3 // Using the pop-up menus, its very simple to use selectively skip the "get" function and print extra tickets without impacting balance. The Machine also does not keep visual track of your balance, instead you must request balance like an ATM, not like a vending machine where it is displayed. Upon purchasing a 2nd ticket, reads a string "Ticket price: 500 cents. your Total is 1050." There was 1 previous ticket, so im unsure if the counter should tell the customer the number of sales.  
+// After printing ticket2, I inspected the balance, which reads 0. Meaning that the refund has disappeared, and was not addressed or returned to the user. No refund! :(   
+// If you do not insert enough money, you can still get a ticket. There is an issue with the return string when printing a ticket. The Balance for printing a ticket is from the internal ATM balance, that should go to the train station. That balance is then being used to qualify for ticket purchases, which is incorrect. It should refer to balance.
+
+Exercise 2.5  // the printed ticket doesnt appear different, except for the int length of the string is 1 longer. that could be because I named them differently though. "ticket3" versus "m2ticket1" for tickets from machine 2.
+
+
+Exercise 2.6 
+// public class Student
+    { 
+    ...
+    }
+// public void class LabClass(int RoomNumber)
+    {
+    ...
+    }
+
+Exercise 2.7 
+ // The error within the editor reads <identifier> expected. the next line also yield an "illegal start of expression" error. The class diagram also had the unit test half shaded, and the TicketMachine class was fully red shaded. This clearly explains where and what went wrong, however it did not explicitly state that it was a misordered line.   
+
+Exercise 2.8 
+// it is in fact possible for the code to compile, but I believe that this is bad practices because now the args wont properly run and interact. 
+ //fields: price (int), balance (int), total (int).
+ //constructors: TicketMachine
+ //Methods: getPrice(), getBalance(), insertMoney(int), printTicket
+
+Exercise 2.10
+// The constructor often shares the same name as the class itself, unlike other methods.
+
+Exercise 2.11
+```java
+private int count; //int
+private Student representative; //String, but declared as Studen
+private Server host; //String or enum, but declared as Server
+```
+Exercise 2.12
+
+```java
+private boolean alive; //alive
+private Person tutor; //tutor
+private Game game; //game
+```
+
+Exercise 2.13
+
+```java
+private int price;
+```
+//When redordering, the error "unknown type" results, or "illegal start of argument." The test also returns half shaded, and the TicketMachine returns red fully shaded. 
+
+Exercise 2.14
+// In Java, it is imperative to always feature a semicolon (;) at the end of a field declaration.
+
+Exercise 2.15
+```java
+private int status;
+```
+Exercise 2.16
+```
+public Student(String name) //this constructor belongs to class Student
+```
+
+Exercise 2.17 
+```
+public Book(String title, double price) // There are two parameters, String "title" and double "price"
+```
+
+Exercise 2.18
+/some fields for `Book` would be "title" and "price." They would consist of type String and double price. I could see additional doubles for rating, and an integer for page number. Potentially even a boolean for if the book is checked out in the use case of a library.
